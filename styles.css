@@ -1,1 +1,103 @@
-/* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #002e83;
+}
+
+header {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    max-height: 725px;
+    object-fit: cover;
+}
+
+#mainHeading {
+    font-size: 3em;
+    margin-top: -100px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: red;
+}
+
+#testP {
+    color: green;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 15px 0;
+    padding: 10px;
+    border: 2px solid #002e83;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+}
+
+.funParagraph {
+    color: #002e83;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ffb612;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 80px;
+    height: auto;
+    z-index: 10;
+}
+
+article h2 {
+    color: #002e83;
+    font-size: 2em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ffb612;
+    padding-bottom: 5px;
+}
+
+ul, ol {
+    padding-left: 20px;
+    margin: 10px 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #002e83;
+    border-bottom: 2px solid #ffb612;
+    color: #ffb612;
+    border-radius: 5px;
+    position: relative; 
+}
+
+.footer-image {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    height: 40px;
+    width: auto;
+}
